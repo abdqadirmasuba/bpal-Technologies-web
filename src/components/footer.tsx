@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Mail, Phone, MapPin } from "lucide-react"
+import Logo from "@/assets/bpal_logo_bg.png"
 
 const navigation = {
   main: [
@@ -30,8 +31,8 @@ export function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <img
-              className="h-8 w-auto mb-4"
-              src="/lovable-uploads/e60b8662-9bfd-4c34-b64b-c017daee9661.png"
+              className="h-8 w-auto mb-4 bg-transparent"
+              src={Logo}
               alt="Bpal Technologies"
             />
             <p className="text-sm leading-6 mb-4">

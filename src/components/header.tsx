@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { ThemeToggle } from "@/components/theme-toggle"
+import logo from "@/assets/bpal_logo_bg.png"
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -42,12 +43,10 @@ export function Header() {
             <Link to="/" className="flex items-center space-x-2">
               <img
                 className="h-8 w-auto sm:h-9"
-                src="/lovable-uploads/e60b8662-9bfd-4c34-b64b-c017daee9661.png"
+                src={logo}
                 alt="BPal Technologies"
               />
-              <span className="hidden sm:block text-lg font-bold text-foreground">
-                BPal Technologies
-              </span>
+              
             </Link>
           </div>
 
