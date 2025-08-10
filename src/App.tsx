@@ -27,7 +27,7 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename="bpal-Technologies-web">
           <div className="flex min-h-screen flex-col">
             <Header />
             <main className="flex-1">
